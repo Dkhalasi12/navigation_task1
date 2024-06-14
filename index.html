@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home" class="content-section">
+        <div class="section-content">
+            <h1>Welcome to Our Website</h1>
+            <p>We are excited to have you here. Explore our services and learn more about us through the sections below.</p>
+        </div>
+        <img src="home.jpg" alt="Home Image" class="section-image">
+    </section>
+    
+    <section id="about" class="content-section">
+        <div class="section-content">
+            <h1>About Us</h1>
+            <p>Our company was founded in 2020 with the mission to provide top-notch services to our clients. We pride ourselves on our dedication and expertise in our field. Our team is made up of professionals who are passionate about what they do and are always ready to go the extra mile to ensure customer satisfaction.</p>
+        </div>
+        <img src="about.jpg" alt="About Image" class="section-image">
+    </section>
+    
+    <section id="services" class="content-section">
+        <div class="section-content">
+            <h1>Our Services</h1>
+            <ul>
+                <li><strong>Consulting:</strong> We provide expert consulting services to help your business grow and succeed.</li>
+                <li><strong>Web Development:</strong> Our team of skilled developers can create custom websites tailored to your needs.</li>
+                <li><strong>Marketing:</strong> We offer comprehensive marketing services to boost your brand's visibility and reach.</li>
+                <li><strong>Support:</strong> Our support team is always available to assist you with any issues or questions.</li>
+            </ul>
+        </div>
+        <img src="services.jpg" alt="Services Image" class="section-image">
+    </section>
+    
+    <section id="contact" class="content-section">
+        <div class="section-content">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Feel free to reach out to us using the following contact information:</p>
+            <p><strong>Email:</strong> info@ourcompany.com</p>
+            <p><strong>Phone:</strong> +123-456-7890</p>
+            <p><strong>Address:</strong> 123 Business Street, Suite 100, Business City, BC 12345</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <img src="contact.jpg" alt="Contact Image" class="section-image">
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
